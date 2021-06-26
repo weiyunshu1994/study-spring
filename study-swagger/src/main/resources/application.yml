@@ -1,0 +1,15 @@
+server:
+  port: 8001
+
+# 应用名称
+spring:
+  application.name: demo
+
+# swagger配置参数
+swagger:
+  config:
+    basePackage: com.example.demo.controller
+    title: 设备管理API接口文档
+    description: 提供设备管理相关接口描述
+    version: 1.0
+
