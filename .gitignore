@@ -1,6 +1,39 @@
 # Compiled class file
 *.class
 
+# 本地配置文件
+application-local*.yml
+application-local*.properties
+
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.class
+*.project
+*.factorypath
+*.nar
+*.ear
+*.rar
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+/bin
+
+/.mvn
+
+### STS ###
+.apt_generated
+.springBeans
+.prefs
+
 # Log file
 *.log
 
